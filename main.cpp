@@ -1,10 +1,9 @@
 #include <windows.h>
 #include <tlhelp32.h>
-#include <tchar.h>  // for _tcscmp
-#include <stdio.h>  // for printf
+#include <tchar.h>
+#include <stdio.h>
 
-
-// put the path to the folder that yourdll.dll is in
+// Path to the DLL
 const char* dll_path = "C:\\Path\\To\\Dll\\YimMenu.dll";
 
 // Function to check if GTA5 is running
